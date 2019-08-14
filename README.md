@@ -2,7 +2,7 @@
 
 - リポジトリをクローン
 ```git
-git clone
+git clone git@github.com:tanikento/jekyll_on_docker.git
 ```
 
 - 新規jekyllプロジェクト作成
