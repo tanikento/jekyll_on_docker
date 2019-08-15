@@ -21,11 +21,14 @@ docker-compose up -d --build
 ```
 
 - localhostで確認
-```http
+```
 localhost:4000
 ```
 
+
 ## jekyllテーマ
+
+- サイト
 ```s
 http://jekyllthemes.org/
 ```
@@ -49,4 +52,22 @@ git push origin master
 - 確認
 ```
 https://[アカウント名].github.io/
+```
+
+
+## Docker
+
+- コンテナに入る
+```shell
+docker/shell
+```
+
+- コンテナ止める
+```shell
+docker/stop
+```
+
+- コンテナ再起動
+```shell
+docker/start
 ```
