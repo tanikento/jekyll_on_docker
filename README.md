@@ -5,9 +5,14 @@
 git clone git@github.com:tanikento/jekyll_on_docker.git
 ```
 
+- ディレクトリ移動
+```shell
+cd jekyll_on_docker
+```
+
 - 新規jekyllプロジェクト作成
 ```docker
-docker-compose run web jekyll new . --force
+docker-compose run ghpages jekyll new . --force
 ```
 
 - dockerイメージをビルド & up
@@ -18,6 +23,11 @@ docker-compose up -d --build
 - localhostで確認
 ```http
 localhost:4000
+```
+
+## jekyllテーマ
+```s
+http://jekyllthemes.org/
 ```
 
 ## GitHub Pages
